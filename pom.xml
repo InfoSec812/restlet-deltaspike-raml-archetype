@@ -11,6 +11,7 @@
     based on the content of the code contained therein. It also sets up and uses Apache DeltaSpike for dependency
     injection. The version tracks the version of the Restlet Framework being used.
   </description>
+  <url>https://github.com/InfoSec812/restlet-deltaspike-raml-archetype</url>
 
   <name>restlet-deltaspike-raml-archetype</name>
 
