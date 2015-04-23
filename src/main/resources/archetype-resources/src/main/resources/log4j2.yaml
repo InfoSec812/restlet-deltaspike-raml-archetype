@@ -1,0 +1,25 @@
+  name: "codepalousa-restlet-raml"
+  status: "debug"
+  Appenders:
+    Console:
+      name: "codepalousa-restlet-raml"
+      target: SYSTEM_OUT
+      PatternLayout:
+        pattern: "%-5p [%t]: %c#%M:%L %m%n"
+  Loggers:
+    Logger:
+      name: "org.eclipse.jetty"
+      level: FATAL
+      additivity: false
+      AppenderRef:
+        ref: "codepalousa-restlet-raml"
+    Logger:
+      name: "org.jboss.logging"
+      level: ERROR
+      additivity: false
+      AppenderRef:
+        ref: "codepalousa-restlet-raml"
+    Root:
+      level: DEBUG
+      AppenderRef:
+        ref: "codepalousa-restlet-raml"
