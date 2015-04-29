@@ -4,7 +4,7 @@
 
   <groupId>com.zanclus.codepalousa</groupId>
   <artifactId>restlet-deltaspike-raml-archetype</artifactId>
-  <version>2.3.1</version>
+  <version>2.3.1.1</version>
   <packaging>maven-archetype</packaging>
   <description>
     A Maven Archetype for generating a simple Restlet application which can produce it's own RAML documentation 
